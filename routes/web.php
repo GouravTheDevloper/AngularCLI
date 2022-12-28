@@ -27,5 +27,5 @@ Route::get('/someresult',[MarksheetController::class,'getmarksheet']);
 // Route::get('/getresult', function() {
 //         return 
 // });
-// Route::get('/public' , [MarksheetController::class ,'getReportData']);
+Route::get('/public' , [MarksheetController::class ,'getReportData']);
 
